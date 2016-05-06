@@ -12,6 +12,7 @@ GameObject:
   - 65: {fileID: 6578324}
   - 23: {fileID: 2394336}
   - 114: {fileID: 11475732}
+  - 114: {fileID: 11492430}
   m_Layer: 0
   m_Name: Standard Target
   m_TagString: Untagged
@@ -88,6 +89,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 157176, guid: 1ff2922bced163f4f8d029f88aee5f9f, type: 2}
+--- !u!114 &11492430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da36a6beef3a924a8e9c742ce7e0307, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  minDist: 0.5
+  target: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
