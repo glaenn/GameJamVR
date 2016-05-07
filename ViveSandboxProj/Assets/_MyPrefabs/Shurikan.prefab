@@ -12,7 +12,6 @@ GameObject:
   - 23: {fileID: 2320754}
   - 111: {fileID: 11107298}
   - 54: {fileID: 5425356}
-  - 65: {fileID: 6590314}
   m_Layer: 0
   m_Name: Shurikan
   m_TagString: Untagged
@@ -80,18 +79,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &6590314
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 134258}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.066058576, y: 0.06605859, z: 0.0027856508}
-  m_Center: {x: 0, y: 0, z: -0.007647217}
 --- !u!111 &11107298
 Animation:
   m_ObjectHideFlags: 1
